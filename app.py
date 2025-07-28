@@ -3,6 +3,12 @@ import numpy as np
 import matplotlib.pyplot as plt
 import plotly.graph_objects as go
 
+st.set_page_config(
+    page_title="LearnRate - ML Playground",
+    page_icon="⚡",
+    layout="centered"
+)
+
 st.set_page_config(page_title="LearnRate", page_icon="⚡", layout="centered")
 
 # Styling
